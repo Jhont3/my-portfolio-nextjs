@@ -22,7 +22,7 @@ export default function Slug () {
   return (
     <MainLayout title={ product.title } pageDescription={ product.description }>
     
-    <Grid container spacing={3}>
+    <Grid container spacing={3} alignItems="center">
 
       <Grid item xs={12} sm={ 7 }>
         <ProductSlideshow 
@@ -43,7 +43,7 @@ export default function Slug () {
             <Typography variant='body2'>{ product.description }</Typography>
           </Box> 
 
-          <Button color="secondary" className='circular-btn' sx={{ mt:3 }}>
+          <Button color="secondary" className='circular-btn' sx={{ mt:3 }} onClick={() => window.open(product.link, "_blank")}>
               See demo
           </Button>
         </Box>

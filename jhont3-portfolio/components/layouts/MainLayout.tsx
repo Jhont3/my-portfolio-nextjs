@@ -24,8 +24,7 @@ export const MainLayout:FC<Props> = ({ children, title, pageDescription, imageFu
     const handleThemeChange = () => {
         setTheme(theme === lightTheme ? darkTheme : lightTheme);
         setToogleLightTheme(!toogleLightTheme);
-      };
-
+    };
 
   return (
     <>

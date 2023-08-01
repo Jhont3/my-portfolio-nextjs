@@ -6,8 +6,10 @@ _document.tsx add Roboto font
 
 yarn add @mui/icons-material
 yarn add react-slideshow-image
+yarn add nodemailer
+yarn add @types/nodemailer
+yarn add dotenv
 
 
-
-COLOR REFERENCES:
+REFERENCES COLORS:
 https://colorhunt.co/palette/222831393e4600adb5eeeeee

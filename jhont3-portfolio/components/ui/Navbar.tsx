@@ -25,10 +25,10 @@ export const Navbar:FC<NavbarProps>  = ({ onThemeChange }) => {
 
             <Box flex={ 1 } />
 
-            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+            <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
                 <NextLink href='/portfolio' passHref legacyBehavior>
                     <Link>
-                        <Button>Portfolio</Button>
+                        <Button sx={{mr:0.3}}>Portfolio</Button>
                     </Link>
                 </NextLink>
                 <NextLink href='/about' passHref legacyBehavior>
@@ -38,13 +38,14 @@ export const Navbar:FC<NavbarProps>  = ({ onThemeChange }) => {
                 </NextLink>
                 <NextLink href='/contact' passHref legacyBehavior>
                     <Link>
-                        <Button>Contact</Button>
+                        <Button sx={{ml:0.3}}>Contact</Button>
                     </Link>
                 </NextLink>
             </Box>
 
             <Box flex={ 1 } />
-
+            
+            {/* TODO: conect and implement search bar */}
             {/* <IconButton onClick={()=> setIsSidebarOpen(true) }>
                 <SearchOutlined />
             </IconButton> */}

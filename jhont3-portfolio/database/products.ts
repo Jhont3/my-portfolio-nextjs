@@ -52,7 +52,6 @@ export const initialData: SeedData = {
                 'demoHome-easycar-booking-react.png',
                 'java.png',
                 'react.png',
-                'mysql.png',
                 'aws.png'
             ],
             link: 'https://www.linkedin.com/posts/jhonatan-escobar-uribe_quiero-compartirles-mi-trabajo-final-en-el-activity-7045493245056819201-p_uy?utm_source=share&utm_medium=member_desktop',
