@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Box, Grid, Typography, Divider, Stack, Chip, List, ListItem, ListItemAvatar, Avatar } from "@mui/material";
+import { Box, Grid, Typography, Divider, Stack, Chip, List, ListItem, ListItemAvatar, Avatar,} from "@mui/material";
 import ImageIcon from "@mui/icons-material/Image";
 import ListItemText from "@mui/material/ListItemText";
 import WorkIcon from "@mui/icons-material/Work";
@@ -29,11 +29,19 @@ const Home: NextPage = () => {
 
           <Grid container spacing={2} sx={{ mt: 1 }}>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              Hello, my name is Jhontan Escobar Uribe, I am a Software
+              Hello, my name is Jhonatan Escobar Uribe, I am a Software
               Programmer from Colombia. I am a dedicated person who is always
               trying to improve myself every day looking to get a great quality
               of life caused by my effots. I encourage you to check out my
-              resume on my <a href="https://www.linkedin.com/feed/update/urn:li:activity:7047288209386430464/" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>Linkedin</a>
+              resume on my{" "}
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7047288209386430464/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                Linkedin
+              </a>
             </Grid>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
               I really like FrontEnd and BackEnd development, but I think it
@@ -132,7 +140,7 @@ const Home: NextPage = () => {
 
           <Box sx={{ mt: 3 }}>
             <Typography variant="subtitle2">
-              FullStack Developer, Digital House - EasyCar. Enero 2023 - Marzo
+              FullStack Developer, Digital House - EasyCar, January 2023 - March
               2023
             </Typography>
             <Divider variant="inset" />
@@ -150,15 +158,15 @@ const Home: NextPage = () => {
 
           <Box sx={{ mt: 3 }}>
             <Typography variant="subtitle2">
-              Games Developer, Ki5 Studios - Solitaire Galaxy. Junio 2023 -
-              Julio 2023
+              Games Developer, Ki5 Studios - Solitaire Galaxy, June 2023 -
+              July 2023
             </Typography>
             <Divider variant="inset" />
             <Typography variant="body2" sx={{ mt: 1 }}>
               Participate in solving application features in Unity, collaborate
-              and be co-responsible for implementing for monetization and ad
-              management assets. Implement partial interfaces for the game
-              according to previous guidelines.
+              and be co-responsible for implementation of monetization and ad
+              management assets. Implement sub interfaces for the game according
+              to guidelines.
             </Typography>
           </Box>
         </Grid>

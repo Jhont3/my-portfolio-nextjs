@@ -12,7 +12,7 @@ export const Footer = () => {
       }}>
         <Grid container justifyContent="center">
             <Grid item>
-                <Box sx={{ display: 'flex', gap: 2 }}>
+                <Box sx={{ display: 'flex', gap: 2, mr: 3.5 }}>
                 <Link href="https://www.instagram.com/jhony4314/" target="_blank" rel="noopener noreferrer">
                     <Instagram />
                 </Link>

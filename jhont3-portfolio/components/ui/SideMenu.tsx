@@ -25,7 +25,7 @@ export const SideMenu = () => {
                 <ListItem>
                     <Input
                         type='text'
-                        placeholder="Working area... "
+                        placeholder="In process.."
                         endAdornment={
                             <InputAdornment position="end">
                                 <IconButton
