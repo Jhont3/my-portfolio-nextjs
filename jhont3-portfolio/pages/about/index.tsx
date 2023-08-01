@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Box, Grid, Typography, Divider, Stack, Chip, List, ListItem, ListItemAvatar, Avatar,} from "@mui/material";
+import { Box, Grid, Typography, Divider, Stack, Chip, List, ListItem, ListItemAvatar, Avatar } from "@mui/material";
 import ImageIcon from "@mui/icons-material/Image";
 import ListItemText from "@mui/material/ListItemText";
 import WorkIcon from "@mui/icons-material/Work";
@@ -29,22 +29,23 @@ const Home: NextPage = () => {
 
           <Grid container spacing={2} sx={{ mt: 1 }}>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              Hello, my name is Jhonatan Escobar Uribe, I am a Software
-              Programmer from Colombia. I am a dedicated person who is always
-              trying to improve myself every day looking to get a great quality
-              of life caused by my effots. I encourage you to check out my
-              resume on my{" "}
-              <a
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7047288209386430464/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                Linkedin
-              </a>
+              Hello, my name is <strong>Jhonatan Escobar Uribe</strong>, I am a Software
+              Programmer from Colombia. I am a dedicated, honest y adaptable
+              person who is always trying to improve myself every day. I
+              encourage you to check out my resume on my {' '}
+              <strong>
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:7047288209386430464/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  Linkedin.
+                </a>
+              </strong>
             </Grid>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              I really like FrontEnd and BackEnd development, but I think it
+              I really like <strong>FrontEnd and BackEnd</strong>  development, but I think it
               could also play a role in Infrastructure, Testing, or Games
               development. I was a professional in another field with some years
               of practice and recommendations from my workplaces.
@@ -140,8 +141,9 @@ const Home: NextPage = () => {
 
           <Box sx={{ mt: 3 }}>
             <Typography variant="subtitle2">
-              FullStack Developer, Digital House - EasyCar, January 2023 - March
-              2023
+              <strong>
+                FullStack Developer, Digital House - EasyCar, January 2023 - March 2023
+              </strong>
             </Typography>
             <Divider variant="inset" />
             <Typography variant="body2" sx={{ mt: 1 }}>
@@ -158,8 +160,9 @@ const Home: NextPage = () => {
 
           <Box sx={{ mt: 3 }}>
             <Typography variant="subtitle2">
-              Games Developer, Ki5 Studios - Solitaire Galaxy, June 2023 -
-              July 2023
+              <strong>
+                Games Developer, Ki5 Studios - Solitaire Galaxy, June 2023 - July 2023
+              </strong>
             </Typography>
             <Divider variant="inset" />
             <Typography variant="body2" sx={{ mt: 1 }}>

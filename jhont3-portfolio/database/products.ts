@@ -22,7 +22,7 @@ export const initialData: SeedData = {
             description: "This is my portfolio or banner of my best projects FullStack, created with Astro, JavaScript and Tailwind",
             images: [
                 'demo-astro-portfolio.png',
-                'js.png',
+                'Js.png',
             ],
             slug: "astro_portfolio",
             type: 'FrontEnd',
