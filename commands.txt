@@ -1,3 +1,4 @@
+COMMANDS:
 yarn create next-app --typescript
 yarn add @mui/material @emotion/react @emotion/styled
 
@@ -5,5 +6,8 @@ _document.tsx add Roboto font
 
 yarn add @mui/icons-material
 yarn add react-slideshow-image
-yarn add @mui/x-data-grid
-yarn add swr
+
+
+
+COLOR REFERENCES:
+https://colorhunt.co/palette/222831393e4600adb5eeeeee
