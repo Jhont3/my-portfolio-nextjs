@@ -35,7 +35,7 @@ const Home: NextPage = () => {
               encourage you to check out my resume on my {' '}
               <strong>
                 <a
-                  href="https://www.linkedin.com/feed/update/urn:li:activity:7047288209386430464/"
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:7092548827517259777/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
