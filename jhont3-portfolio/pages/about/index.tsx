@@ -1,5 +1,16 @@
 import type { NextPage } from "next";
-import { Box, Grid, Typography, Divider, Stack, Chip, List, ListItem, ListItemAvatar, Avatar } from "@mui/material";
+import {
+  Box,
+  Grid,
+  Typography,
+  Divider,
+  Stack,
+  Chip,
+  List,
+  ListItem,
+  ListItemAvatar,
+  Avatar,
+} from "@mui/material";
 import ImageIcon from "@mui/icons-material/Image";
 import ListItemText from "@mui/material/ListItemText";
 import WorkIcon from "@mui/icons-material/Work";
@@ -29,26 +40,28 @@ const Home: NextPage = () => {
 
           <Grid container spacing={2} sx={{ mt: 1 }}>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              Hello, my name is <strong>Jhonatan Escobar Uribe</strong>, I am a Software
-              Programmer from Colombia. I am a dedicated, honest y adaptable
-              person who is always trying to improve myself every day. I
-              encourage you to check out my resume on my {' '}
+              Hello, my name is <strong>Jhonatan Escobar</strong>, I am a
+              software programmer from Colombia. I am a dedicated and adaptable
+              person who is always trying to improve myself every day, hoping to
+              go deeper in the frontend area. I hope you could check my resume on my
               <strong>
                 <a
-                  href="https://www.linkedin.com/feed/update/urn:li:activity:7092548827517259777/"
+                  href="https://www.linkedin.com/in/jhonatan-escobar-uribe/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  Linkedin.
+                  {" "}
+                  LinkedIn.
                 </a>
               </strong>
             </Grid>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              I really like <strong>FrontEnd and BackEnd</strong>  development, but I think it
-              could also play a role in Infrastructure, Testing, or Games
-              development. I was a professional in another field with some years
-              of practice and recommendations from my workplaces.
+              I had knowledge and a <strong>Fullstack</strong> tech pool, but I could
+              go deep into testing if I had the opportunity. I was a
+              professional in another field with some years of experience and
+              recommendations from my previous jobs where I learn how to manage
+              clients and staff.
             </Grid>
           </Grid>
         </Grid>
@@ -138,11 +151,27 @@ const Home: NextPage = () => {
               Experience
             </Typography>
           </Divider>
+          <Box sx={{ mt: 3 }}>
+            <Typography variant="subtitle2">
+              <strong>
+                Games Developer, Ki5 Studios - Solitaire Galaxy, June 2023 -
+                July 2023
+              </strong>
+            </Typography>
+            <Divider variant="inset" />
+            <Typography variant="body2" sx={{ mt: 1 }}>
+              Participate in solving application features in Unity, collaborate
+              and be co-responsible for implementation of monetization and ad
+              management assets. Implement sub interfaces for the game according
+              to guidelines.
+            </Typography>
+          </Box>
 
           <Box sx={{ mt: 3 }}>
             <Typography variant="subtitle2">
               <strong>
-                FullStack Developer, Digital House - EasyCar, January 2023 - March 2023
+                FullStack Developer, Digital House - EasyCar, January 2023 -
+                March 2023
               </strong>
             </Typography>
             <Divider variant="inset" />
@@ -155,21 +184,6 @@ const Home: NextPage = () => {
               Postman, using Spring, Hibernate and JWT for security. In
               addition, manual, smoke and regression tests and subsequent
               implementation of automated tests with SeleniumIDE.
-            </Typography>
-          </Box>
-
-          <Box sx={{ mt: 3 }}>
-            <Typography variant="subtitle2">
-              <strong>
-                Games Developer, Ki5 Studios - Solitaire Galaxy, June 2023 - July 2023
-              </strong>
-            </Typography>
-            <Divider variant="inset" />
-            <Typography variant="body2" sx={{ mt: 1 }}>
-              Participate in solving application features in Unity, collaborate
-              and be co-responsible for implementation of monetization and ad
-              management assets. Implement sub interfaces for the game according
-              to guidelines.
             </Typography>
           </Box>
         </Grid>

@@ -14,11 +14,25 @@ type ValidTypes = 'FrontEnd'|'BackEnd'|'FullStack'|'Infrastructure'|'Testing'|'G
 interface SeedData {
     products: SeedProduct[],
 }
+//until 99 I think
 
 export const initialData: SeedData = {
     products: [
         {
-            _id: 99,
+            _id: 50,
+            description: "This is a real hair products site that I am using NextJs - Tailwind and I hope to integrate Supabase and Stripe to manage data and shopping.",
+            images: [
+                'viVida.webp',
+                'react.png',
+            ],
+            slug: "vi_vida_vital",
+            type: 'FrontEnd',
+            title: "Vi Vida Vital",
+            link: 'https://vi-vida-vital.vercel.app/'
+        },
+        {
+            
+            _id: 49,
             description: "This is my portfolio or banner of my best projects FullStack, created with Astro, JavaScript and Tailwind",
             images: [
                 'demo-astro-portfolio.png',
@@ -31,7 +45,7 @@ export const initialData: SeedData = {
         },
 
         {
-            _id: 98,
+            _id: 48,
             description: "This is my repository for practicing FullStack technologies. I practiced NodeJs, Express, JWT and MongoDB in the backend folder, creating a basic structure of an e-shop, and I practiced ReactTs using Vite template, with Tailwind for styling, Axios for fething backend data, GSAP for animations, React Query for controlling fetched information, Zustand for managing state (easier than Redux).",
             images: [
                 'demoHome-eshop-react-node.png',
@@ -46,7 +60,7 @@ export const initialData: SeedData = {
         },
 
         {
-            _id: 97,
+            _id: 47,
             description: "This is my final project as a student of Digital House in the first track of Certified Tech Developer. I was mainly responsible for development of Front-end (React-JS, CSS modules) and Infrastructure (Gitlab/CICD-AWS) development, while also contributing actively to testing (manual testing-Selenium IDE) and backend development (Java-JWT-Spring). We used Scrum as an iterative methodology to work and Figma as base to create Front-end layout. To see all the libraries that we used, you can see dependencies in package.json file for Front-end and dependencies in pom.xml file for backend.",
             images: [
                 'demoHome-easycar-booking-react.png',
@@ -61,7 +75,7 @@ export const initialData: SeedData = {
         },
 
         {
-            _id: 96,
+            _id: 46,
             description: "This is my repository for learning and practicing about .Net with C# in the Backend's BootCamp from WomenWhoCode sponsored by Perficient.",
             images: [
                 'demoBootcampBE.png',
@@ -73,7 +87,7 @@ export const initialData: SeedData = {
             link: 'https://github.com/Jhont3/discoteque-dotnet'
         },
         {
-            _id: 95,
+            _id: 45,
             description: "Hi, this is my repo where I am solving a mid-level React technical test using ReactTS, and https://randomuser.me/ API. Test previously solved by Midudev on live coding stream https://www.twitch.tv/midudev/video/1792623213.",
             images: [
                 'demo-react-data-management.png',
@@ -85,7 +99,7 @@ export const initialData: SeedData = {
             link: 'https://github.com/Jhont3/react-data-management-app/'
         },
         {
-            _id: 94,
+            _id: 44,
             description: "This is my repository of the GifExpertApp project from the recently updated course https://www.udemy.com/course/react-cero-experto/ by Fernando Herrera, which I am currently studying and practicing React, JS, Jest and ReactTestingLibrary. I add link to the app made Gif APP",
             images: [
                 'demo-react-gifs-finder.png',
@@ -96,6 +110,20 @@ export const initialData: SeedData = {
             title: "Gif's Finder App",
             link: 'https://jhont3.github.io/react-gifs-finder/'
         },
+        {
+            _id: 43,
+            description: "This is my final project from backend's course in Digital House. It´s an App to manage registration and search info in an odontology clinic.",
+            images: [
+                'finalBackDH.webp',
+                'java.png',
+            ],
+            slug: "odontology_clinical_manager",
+            type: 'BackEnd',
+            title: "Final project Backend DH",
+            link: 'https://jhont3.github.io/react-gifs-finder/'
+        },
+
+
 
     ]
 }

@@ -14,7 +14,7 @@ export const ProductCard: FC<Props> = ({ product }) => {
       <Grid item 
             xs={ 12 } 
             sm={ 6 }
-            md={ 4 }
+            md={ 3 }
             className='product-image'
       >
           <Card>
