@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 
           <Grid container spacing={2} sx={{ mt: 1 }} >
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              Hello, I am <strong>Jhonatan Escobar</strong>, fullstack developer
+              Hello, I am <strong>Jhonatan Escobar</strong>, a fullstack developer
               from Colombia specialized in the frontend area. I hope you can
               find out more on my
               <strong>
