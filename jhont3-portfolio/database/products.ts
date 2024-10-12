@@ -10,7 +10,6 @@ interface SeedProduct {
 
 type ValidTypes = 'FrontEnd'|'BackEnd'|'FullStack'|'Infrastructure'|'Testing'|'Games';
 
-
 interface SeedData {
     products: SeedProduct[],
 }
@@ -18,6 +17,18 @@ interface SeedData {
 
 export const initialData: SeedData = {
     products: [
+        {
+            _id: 51,
+            description: "This is a digital wallet that I developed using NextJs - Tailwind.",
+            images: [
+                'finalFrontendSpecialist.webp',
+                'typeScript.png',
+            ],
+            slug: "digital_money_house",
+            type: 'FrontEnd',
+            title: "Digital Money House",
+            link: 'https://digital-money-house-wallet.vercel.app/'
+        },
         {
             _id: 50,
             description: "This is a real hair products site that I am using NextJs - Tailwind and I hope to integrate Supabase and Stripe to manage data and shopping.",
@@ -110,20 +121,18 @@ export const initialData: SeedData = {
             title: "Gif's Finder App",
             link: 'https://jhont3.github.io/react-gifs-finder/'
         },
-        {
-            _id: 43,
-            description: "This is my final project from backend's course in Digital House. It´s an App to manage registration and search info in an odontology clinic.",
-            images: [
-                'finalBackDH.webp',
-                'java.png',
-            ],
-            slug: "odontology_clinical_manager",
-            type: 'BackEnd',
-            title: "Final project Backend DH",
-            link: 'https://jhont3.github.io/react-gifs-finder/'
-        },
-
-
+        // {
+        //     _id: 43,
+        //     description: "This is my final project from backend's course in Digital House. It´s an App to manage registration and search info in an odontology clinic.",
+        //     images: [
+        //         'finalBackDH.webp',
+        //         'java.png',
+        //     ],
+        //     slug: "odontology_clinical_manager",
+        //     type: 'BackEnd',
+        //     title: "Final project Backend DH",
+        //     link: 'https://jhont3.github.io/react-gifs-finder/'
+        // },
 
     ]
 }

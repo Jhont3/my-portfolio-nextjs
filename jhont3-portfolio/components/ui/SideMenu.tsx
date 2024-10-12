@@ -17,6 +17,7 @@ export const SideMenu = () => {
         open={ isSidebarOpen }
         anchor='right'
         sx={{ backdropFilter: 'blur(4px)', transition: 'all 0.5s ease-out' }}
+        onClose={() => setIsSidebarOpen(false)}
     >
         <Box sx={{ width: 250, paddingTop: 5 }}>
             
@@ -38,7 +39,7 @@ export const SideMenu = () => {
                     />
                 </ListItem>
 
-                <NextLink href='/portfolio' passHref legacyBehavior>
+                <NextLink href='/about' passHref legacyBehavior>
                     <Link>
                         <ListItemButton >
                             <ListItemIcon>

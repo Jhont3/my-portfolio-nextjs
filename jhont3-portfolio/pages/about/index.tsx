@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       pageDescription="Information about Jhont3 development"
     >
       <Grid container spacing={2} sx={{ mt: 2 }}>
-        <Grid container xs={12} sm={8} sx={{ paddingLeft: 10 }}>
+        <Grid container xs={12} sm={8} sx={{ paddingLeft: { xs: 2, sm: 10 } }}>
           <Grid item xs={12}>
             <Divider
               component="div"
@@ -38,12 +38,11 @@ const Home: NextPage = () => {
             </Divider>
           </Grid>
 
-          <Grid container spacing={2} sx={{ mt: 1 }}>
+          <Grid container spacing={2} sx={{ mt: 1 }} >
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              Hello, my name is <strong>Jhonatan Escobar</strong>, I am a
-              software programmer from Colombia. I am a dedicated and adaptable
-              person who is always trying to improve myself every day, hoping to
-              go deeper in the frontend area. I hope you could check my resume on my
+              Hello, I am <strong>Jhonatan Escobar</strong>, fullstack developer
+              from Colombia specialized in the frontend area. I hope you can
+              find out more on my
               <strong>
                 <a
                   href="https://www.linkedin.com/in/jhonatan-escobar-uribe/"
@@ -57,11 +56,9 @@ const Home: NextPage = () => {
               </strong>
             </Grid>
             <Grid item xs={12} sm={5} sx={{ mt: "10px" }}>
-              I had knowledge and a <strong>Fullstack</strong> tech pool, but I could
-              go deep into testing if I had the opportunity. I was a
-              professional in another field with some years of experience and
-              recommendations from my previous jobs where I learn how to manage
-              clients and staff.
+              Previously, I worked in another field where I gained years of
+              experience with great references and developed skills in managing
+              clients and teams.
             </Grid>
           </Grid>
         </Grid>
@@ -72,24 +69,24 @@ const Home: NextPage = () => {
           </Typography>
           <Divider variant="inset" sx={{ width: "60%", alignSelf: "center" }} />
 
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12}>
             <Box sx={{ my: 2 }}>
               <Stack direction="row" spacing={1}>
-                <Chip label="React JS / TS" />
+                <Chip label="React" />
                 <Chip color="secondary" label="MySQL" />
                 <Chip label="MongoDb" />
               </Stack>
             </Box>
             <Box sx={{ my: 2 }}>
               <Stack direction="row" spacing={1}>
-                <Chip color="secondary" label="NodeJs Express" />
+                <Chip color="secondary" label="Nodejs" />
                 <Chip label="Java Spring" />
                 <Chip color="secondary" label="Jest" />
               </Stack>
             </Box>
             <Box sx={{ my: 2 }}>
               <Stack direction="row" spacing={1}>
-                <Chip label="Aws basics" />
+                <Chip label="Aws" />
                 <Chip color="secondary" label="C# .Net" />
                 <Chip label="Tailwind" />
               </Stack>
@@ -123,7 +120,7 @@ const Home: NextPage = () => {
               </ListItemAvatar>
               <ListItemText
                 primary="Recent Techs"
-                secondary="React Native, GraphQl, C# / .Net, NextJs"
+                secondary="React Native, GraphQl, Apollo, NextJs, PostgresQl"
               />
             </ListItem>
             <ListItem>
@@ -134,7 +131,7 @@ const Home: NextPage = () => {
               </ListItemAvatar>
               <ListItemText
                 primary="Interesting Techs"
-                secondary="PostgresQl, Apollo, Flutter, Vue, SQL Server, Azure"
+                secondary="Angular, Flutter, Vue, SQL Server, Azure, ThreeJs"
               />
             </ListItem>
           </List>
@@ -154,16 +151,17 @@ const Home: NextPage = () => {
           <Box sx={{ mt: 3 }}>
             <Typography variant="subtitle2">
               <strong>
-                Games Developer, Ki5 Studios - Solitaire Galaxy, June 2023 -
-                July 2023
+                Frontend Developer, Digital House - Digital Money House, June
+                2024 - Oct. 2024
               </strong>
             </Typography>
             <Divider variant="inset" />
             <Typography variant="body2" sx={{ mt: 1 }}>
-              Participate in solving application features in Unity, collaborate
-              and be co-responsible for implementation of monetization and ad
-              management assets. Implement sub interfaces for the game according
-              to guidelines.
+              I implemented the Figma design of a virtual wallet website using
+              Next.js and integrated the API provided by Digital House. The
+              project was deployed on Vercel and I ensured that the requirements
+              for each sprint were met through manual testing, supported by a
+              Jira-based planning process.
             </Typography>
           </Box>
 
@@ -176,14 +174,13 @@ const Home: NextPage = () => {
             </Typography>
             <Divider variant="inset" />
             <Typography variant="body2" sx={{ mt: 1 }}>
-              Responsible for the design and development of the website. Adapted
-              Figma design to React components. Implementing events,
-              interactions, animations and error handling in the FrontEnd. I
-              contributed to database design and implementation using MySQL
-              Workbench in the backend. Creating a REST API with validation in
-              Postman, using Spring, Hibernate and JWT for security. In
-              addition, manual, smoke and regression tests and subsequent
-              implementation of automated tests with SeleniumIDE.
+              Responsible for designing and developing the website, adapting
+              Figma designs into React components with events, interactions,
+              animations, and error handling. Contributed to backend
+              development, designing the database in MySQL and creating a REST
+              API using Spring and JWT for security. Performed manual, smoke,
+              and regression testing, and implemented automated tests using
+              Selenium IDE.
             </Typography>
           </Box>
         </Grid>
